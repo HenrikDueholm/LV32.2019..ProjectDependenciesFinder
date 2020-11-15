@@ -15,7 +15,12 @@
 		<Item Name="Project Parser_Identify External Folders and Internal Relative Paths.vi" Type="VI" URL="../Sub/Project Parser_Identify External Folders and Internal Relative Paths.vi"/>
 		<Item Name="Project Parser_Identify Internal Dependencies.vi" Type="VI" URL="../Sub/Project Parser_Identify Internal Dependencies.vi"/>
 	</Item>
+	<Item Name="Utility" Type="Folder">
+		<Item Name="Find External Path Combinations.vi" Type="VI" URL="../Utility/Find External Path Combinations.vi"/>
+		<Item Name="Remove non-unique Strings.vi" Type="VI" URL="../Utility/Remove non-unique Strings.vi"/>
+	</Item>
 	<Item Name="Dependency Source.lvclass" Type="LVClass" URL="../Dependency Source/Dependency Source.lvclass"/>
+	<Item Name="Dependency Source_Custom.lvclass" Type="LVClass" URL="../Dependency Source_Custom/Dependency Source_Custom.lvclass"/>
 	<Item Name="Dependency Source_VIPM.lvclass" Type="LVClass" URL="../Dependency Source_VIPM/Dependency Source_VIPM.lvclass"/>
 	<Item Name="Project Parser_Class Array.vi" Type="VI" URL="../Project Parser_Class Array.vi"/>
 	<Item Name="Project Parser_Map Array.vi" Type="VI" URL="../Project Parser_Map Array.vi"/>

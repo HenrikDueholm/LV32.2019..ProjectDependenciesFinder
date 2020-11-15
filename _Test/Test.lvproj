@@ -19,6 +19,9 @@
 				<Item Name="MGI Calculate Peak Moments.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Calculate Peak Moments.vi"/>
 				<Item Name="MGI Compound And Merge VI.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Numeric/MGI Compound And Merge VI.vi"/>
 			</Item>
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+			</Item>
 			<Item Name="Project.Dependencies Finder.lvlibp" Type="LVLibp" URL="../../Build/Project.Dependencies Finder.lvlibp">
 				<Item Name="Ctl" Type="Folder">
 					<Item Name="Ctl_Dependency Element.ctl" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Ctl/Ctl_Dependency Element.ctl"/>
@@ -31,7 +34,11 @@
 					<Item Name="Project Parser_Identify External Folders and Internal Relative Paths.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Sub/Project Parser_Identify External Folders and Internal Relative Paths.vi"/>
 					<Item Name="Project Parser_Identify Internal Dependencies.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Sub/Project Parser_Identify Internal Dependencies.vi"/>
 				</Item>
+				<Item Name="Utility" Type="Folder">
+					<Item Name="Find External Path Combinations.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Find External Path Combinations.vi"/>
+				</Item>
 				<Item Name="Dependency Source.lvclass" Type="LVClass" URL="../../Build/Project.Dependencies Finder.lvlibp/Dependency Source/Dependency Source.lvclass"/>
+				<Item Name="Dependency Source_Custom.lvclass" Type="LVClass" URL="../../Build/Project.Dependencies Finder.lvlibp/Dependency Source_Custom/Dependency Source_Custom.lvclass"/>
 				<Item Name="Dependency Source_VIPM.lvclass" Type="LVClass" URL="../../Build/Project.Dependencies Finder.lvlibp/Dependency Source_VIPM/Dependency Source_VIPM.lvclass"/>
 				<Item Name="Project Parser_Class Array.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Project Parser_Class Array.vi"/>
 				<Item Name="Project Parser_Map Array.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Project Parser_Map Array.vi"/>
