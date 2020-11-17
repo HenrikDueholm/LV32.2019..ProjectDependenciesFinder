@@ -17,10 +17,12 @@
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Find External Path Combinations.vi" Type="VI" URL="../Utility/Find External Path Combinations.vi"/>
+		<Item Name="Get Data Folder.vi" Type="VI" URL="../Utility/Get Data Folder.vi"/>
 		<Item Name="Remove non-unique Strings.vi" Type="VI" URL="../Utility/Remove non-unique Strings.vi"/>
 	</Item>
 	<Item Name="Dependency Source.lvclass" Type="LVClass" URL="../Dependency Source/Dependency Source.lvclass"/>
 	<Item Name="Dependency Source_Custom.lvclass" Type="LVClass" URL="../Dependency Source_Custom/Dependency Source_Custom.lvclass"/>
+	<Item Name="Dependency Source_NIPM.lvclass" Type="LVClass" URL="../Dependency Source_NIPM/Dependency Source_NIPM.lvclass"/>
 	<Item Name="Dependency Source_VIPM.lvclass" Type="LVClass" URL="../Dependency Source_VIPM/Dependency Source_VIPM.lvclass"/>
 	<Item Name="Project Parser_Class Array.vi" Type="VI" URL="../Project Parser_Class Array.vi"/>
 	<Item Name="Project Parser_Map Array.vi" Type="VI" URL="../Project Parser_Map Array.vi"/>

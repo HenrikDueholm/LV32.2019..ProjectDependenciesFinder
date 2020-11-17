@@ -1,0 +1,2 @@
+ni-dcpower	instr.lib\niDCPower\nidcpower.llb
+ni-dmm	instr.lib\niDMM\nidmm.llb
