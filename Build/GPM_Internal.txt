@@ -1,0 +1,2 @@
+ni-syslog	vi.lib\NI\syslog
+zmq-socket-library	zeromq

@@ -12,6 +12,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="data" Type="Folder">
+			<Item Name="GPM_External.txt" Type="Document" URL="../data/GPM_External.txt"/>
+			<Item Name="GPM_Internal.txt" Type="Document" URL="../data/GPM_Internal.txt"/>
+			<Item Name="Ignore List_External.txt" Type="Document" URL="../data/Ignore List_External.txt"/>
+			<Item Name="Ignore List_Internal.txt" Type="Document" URL="../data/Ignore List_Internal.txt"/>
 			<Item Name="NIPM_External.txt" Type="Document" URL="../data/NIPM_External.txt"/>
 			<Item Name="NIPM_Internal.txt" Type="Document" URL="../data/NIPM_Internal.txt"/>
 		</Item>
@@ -73,7 +77,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2FE5A042-0FB2-4AE3-BC1F-41CE74E1B412}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Project.Dependencies Finder.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/NI_AB_PROJECTNAME.lvlibp</Property>

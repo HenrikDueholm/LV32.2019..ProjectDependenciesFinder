@@ -14,6 +14,9 @@
 		<Item Name="VIPM Project Parser.vi" Type="VI" URL="../VIPM Project Parser.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="niDCPower Configure Power Line Frequency.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Power Line Frequency.vi"/>
+				<Item Name="niDCPower IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower IVI Error Converter.vi"/>
+				<Item Name="niDCPower Power Line Frequency.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Power Line Frequency.ctl"/>
 				<Item Name="niDMM Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM Initialize.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
@@ -23,7 +26,21 @@
 				<Item Name="MGI Compound And Merge VI.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Numeric/MGI Compound And Merge VI.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
+				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
+				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
+			</Item>
+			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
+			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="MessageCycle.lvclass" Type="LVClass" URL="../../../../GPM/gpm_packages/@cs/actor-framework-messages/Source/MessageCycle/MessageCycle.lvclass"/>
+			<Item Name="nidcpower_32.dll" Type="Document" URL="nidcpower_32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nidmm_32.dll" Type="Document" URL="nidmm_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -43,10 +60,12 @@
 				<Item Name="Utility" Type="Folder">
 					<Item Name="Find External Path Combinations.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Find External Path Combinations.vi"/>
 					<Item Name="Get Data Folder.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Get Data Folder.vi"/>
+					<Item Name="Load Package Arrays from File.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Load Package Arrays from File.vi"/>
 					<Item Name="Remove non-unique Strings.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Remove non-unique Strings.vi"/>
 				</Item>
 				<Item Name="Dependency Source.lvclass" Type="LVClass" URL="../../Build/Project.Dependencies Finder.lvlibp/Dependency Source/Dependency Source.lvclass"/>
 				<Item Name="Dependency Source_Custom.lvclass" Type="LVClass" URL="../../Build/Project.Dependencies Finder.lvlibp/Dependency Source_Custom/Dependency Source_Custom.lvclass"/>
+				<Item Name="Dependency Source_GPM.lvclass" Type="LVClass" URL="../../Build/Project.Dependencies Finder.lvlibp/Dependency Source_GPM/Dependency Source_GPM.lvclass"/>
 				<Item Name="Dependency Source_NIPM.lvclass" Type="LVClass" URL="../../Build/Project.Dependencies Finder.lvlibp/Dependency Source_NIPM/Dependency Source_NIPM.lvclass"/>
 				<Item Name="Dependency Source_VIPM.lvclass" Type="LVClass" URL="../../Build/Project.Dependencies Finder.lvlibp/Dependency Source_VIPM/Dependency Source_VIPM.lvclass"/>
 				<Item Name="Project Parser_Class Array.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Project Parser_Class Array.vi"/>
@@ -83,6 +102,9 @@
 				<Item Name="Project.Dependencies Finder_whitespace.ctl" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Project.Dependencies Finder_whitespace.ctl"/>
 				<Item Name="Project.Dependencies Finder_Write Delimited Spreadsheet (string).vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Project.Dependencies Finder_Write Delimited Spreadsheet (string).vi"/>
 				<Item Name="Project.Dependencies Finder_Write Spreadsheet String.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Project.Dependencies Finder_Write Spreadsheet String.vi"/>
+			</Item>
+			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
