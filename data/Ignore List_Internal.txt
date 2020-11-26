@@ -1,1 +1,5 @@
 vi.lib\actorframework
+user.lib\_probes
+user.lib\_express
+vi.lib\addons
+resource\dialog

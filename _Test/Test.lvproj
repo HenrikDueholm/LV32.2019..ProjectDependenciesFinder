@@ -11,7 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Detect Guilty Packages.vi" Type="VI" URL="../Detect Guilty Packages.vi"/>
 		<Item Name="VIPM Project Parser.vi" Type="VI" URL="../VIPM Project Parser.vi"/>
+		<Item Name="VIPM Project Parser_To String.vi" Type="VI" URL="../VIPM Project Parser_To String.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDCPower Configure Power Line Frequency.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Power Line Frequency.vi"/>
@@ -21,7 +23,6 @@
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Append Path to Root if Relative - Root Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Root Path Array__ogtk.vi"/>
-				<Item Name="Append Path to Root if Relative - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Scalar__ogtk.vi"/>
 				<Item Name="MGI Calculate Peak Moments.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Calculate Peak Moments.vi"/>
 				<Item Name="MGI Compound And Merge VI.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Numeric/MGI Compound And Merge VI.vi"/>
 			</Item>
@@ -51,6 +52,9 @@
 					<Item Name="Ctl_External Target Element.ctl" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Ctl/Ctl_External Target Element.ctl"/>
 					<Item Name="Ctl_Internal Target Element.ctl" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Ctl/Ctl_Internal Target Element.ctl"/>
 				</Item>
+				<Item Name="Path" Type="Folder">
+					<Item Name="Path_HDH Dependency Finder Folder.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Path/Path_HDH Dependency Finder Folder.vi"/>
+				</Item>
 				<Item Name="Sub" Type="Folder">
 					<Item Name="Project Parser_Get Files from Project.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Sub/Project Parser_Get Files from Project.vi"/>
 					<Item Name="Project Parser_Identify External Dependencies.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Sub/Project Parser_Identify External Dependencies.vi"/>
@@ -60,7 +64,10 @@
 				<Item Name="Utility" Type="Folder">
 					<Item Name="Find External Path Combinations.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Find External Path Combinations.vi"/>
 					<Item Name="Get Data Folder.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Get Data Folder.vi"/>
+					<Item Name="Get External Ignore List.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Get External Ignore List.vi"/>
+					<Item Name="Get Internal Ignore List.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Get Internal Ignore List.vi"/>
 					<Item Name="Load Package Arrays from File.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Load Package Arrays from File.vi"/>
+					<Item Name="Remove Ignored Internals.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Remove Ignored Internals.vi"/>
 					<Item Name="Remove non-unique Strings.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Remove non-unique Strings.vi"/>
 				</Item>
 				<Item Name="Dependency Source.lvclass" Type="LVClass" URL="../../Build/Project.Dependencies Finder.lvlibp/Dependency Source/Dependency Source.lvclass"/>
@@ -102,6 +109,7 @@
 				<Item Name="Project.Dependencies Finder_whitespace.ctl" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Project.Dependencies Finder_whitespace.ctl"/>
 				<Item Name="Project.Dependencies Finder_Write Delimited Spreadsheet (string).vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Project.Dependencies Finder_Write Delimited Spreadsheet (string).vi"/>
 				<Item Name="Project.Dependencies Finder_Write Spreadsheet String.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Project.Dependencies Finder_Write Spreadsheet String.vi"/>
+				<Item Name="Remove Ignored Externals.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Remove Ignored Externals.vi"/>
 			</Item>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
