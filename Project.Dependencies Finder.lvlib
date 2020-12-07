@@ -4,10 +4,12 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Ctl" Type="Folder">
 		<Item Name="Ctl_Dependency Element.ctl" Type="VI" URL="../Ctl/Ctl_Dependency Element.ctl"/>
 		<Item Name="Ctl_External Target Element.ctl" Type="VI" URL="../Ctl/Ctl_External Target Element.ctl"/>
 		<Item Name="Ctl_Internal Target Element.ctl" Type="VI" URL="../Ctl/Ctl_Internal Target Element.ctl"/>
+		<Item Name="Ctl_Progress Queue.ctl" Type="VI" URL="../Ctl/Ctl_Progress Queue.ctl"/>
 	</Item>
 	<Item Name="Path" Type="Folder">
 		<Item Name="Path_HDH Dependency Finder Folder.vi" Type="VI" URL="../Path/Path_HDH Dependency Finder Folder.vi"/>
@@ -15,16 +17,24 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Find External Path Combinations.vi" Type="VI" URL="../Private/Find External Path Combinations.vi"/>
-		<Item Name="Load 1D String Array from File.vi" Type="VI" URL="../Utility/Load 1D String Array from File.vi"/>
-		<Item Name="Load Package Arrays from File.vi" Type="VI" URL="../Utility/Load Package Arrays from File.vi"/>
+		<Item Name="Load 1D String Array from File.vi" Type="VI" URL="../Private/Load 1D String Array from File.vi"/>
+		<Item Name="Load Package Arrays from File.vi" Type="VI" URL="../Private/Load Package Arrays from File.vi"/>
+		<Item Name="Gobal_Progress Tracking State.vi" Type="VI" URL="../Private/Gobal_Progress Tracking State.vi"/>
 		<Item Name="Project Parser_Identify External Dependencies.vi" Type="VI" URL="../Private/Project Parser_Identify External Dependencies.vi"/>
 		<Item Name="Project Parser_Identify External Folders and Internal Relative Paths.vi" Type="VI" URL="../Private/Project Parser_Identify External Folders and Internal Relative Paths.vi"/>
 		<Item Name="Project Parser_Identify Internal Dependencies.vi" Type="VI" URL="../Private/Project Parser_Identify Internal Dependencies.vi"/>
 		<Item Name="Remove Ignored Externals.vi" Type="VI" URL="../Private/Remove Ignored Externals.vi"/>
-		<Item Name="Remove Ignored Internals.vi" Type="VI" URL="../Utility/Remove Ignored Internals.vi"/>
-		<Item Name="Remove non-unique Strings.vi" Type="VI" URL="../Utility/Remove non-unique Strings.vi"/>
+		<Item Name="Remove Ignored Internals.vi" Type="VI" URL="../Private/Remove Ignored Internals.vi"/>
+		<Item Name="Remove non-unique Strings.vi" Type="VI" URL="../Private/Remove non-unique Strings.vi"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
+		<Item Name="Target Refresh" Type="Folder">
+			<Item Name="Get Progress Queue.vi" Type="VI" URL="../Utility/Target Refresh/Get Progress Queue.vi"/>
+			<Item Name="Stop Target Refresh.vi" Type="VI" URL="../Utility/Target Refresh/Stop Target Refresh.vi"/>
+			<Item Name="Refresh Targets_Do.vi" Type="VI" URL="../Utility/Target Refresh/Refresh Targets_Do.vi"/>
+			<Item Name="Reset Target Refresh.vi" Type="VI" URL="../Utility/Target Refresh/Reset Target Refresh.vi"/>
+			<Item Name="Target Refresh Tracker.vi" Type="VI" URL="../Utility/Target Refresh/Target Refresh Tracker.vi"/>
+		</Item>
 		<Item Name="Find All Files in Project.vi" Type="VI" URL="../Utility/Find All Files in Project.vi"/>
 		<Item Name="Find Project Dependencies in Given Maps.vi" Type="VI" URL="../Utility/Find Project Dependencies in Given Maps.vi"/>
 		<Item Name="Get Data Folder.vi" Type="VI" URL="../Utility/Get Data Folder.vi"/>
@@ -37,4 +47,5 @@
 	<Item Name="Dependency Source_NIPM.lvclass" Type="LVClass" URL="../Dependency Source_NIPM/Dependency Source_NIPM.lvclass"/>
 	<Item Name="Dependency Source_VIPM.lvclass" Type="LVClass" URL="../Dependency Source_VIPM/Dependency Source_VIPM.lvclass"/>
 	<Item Name="Find Project Dependencies.vi" Type="VI" URL="../Find Project Dependencies.vi"/>
+	<Item Name="Refresh Targets.vi" Type="VI" URL="../Refresh Targets.vi"/>
 </Library>
