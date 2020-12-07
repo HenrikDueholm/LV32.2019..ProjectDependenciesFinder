@@ -11,9 +11,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Sub" Type="Folder">
+			<Item Name="To String.vi" Type="VI" URL="../Sub/UniqueFolderName/To String.vi"/>
+		</Item>
 		<Item Name="Detect Guilty Packages.vi" Type="VI" URL="../Detect Guilty Packages.vi"/>
-		<Item Name="VIPM Project Parser.vi" Type="VI" URL="../VIPM Project Parser.vi"/>
-		<Item Name="VIPM Project Parser_To String.vi" Type="VI" URL="../VIPM Project Parser_To String.vi"/>
+		<Item Name="Test_Project Parser.vi" Type="VI" URL="../Test_Project Parser.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDCPower Configure Power Line Frequency.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Power Line Frequency.vi"/>
@@ -23,6 +25,7 @@
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Append Path to Root if Relative - Root Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Root Path Array__ogtk.vi"/>
+				<Item Name="Append Path to Root if Relative - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Scalar__ogtk.vi"/>
 				<Item Name="MGI Calculate Peak Moments.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Calculate Peak Moments.vi"/>
 				<Item Name="MGI Compound And Merge VI.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Numeric/MGI Compound And Merge VI.vi"/>
 			</Item>
@@ -55,28 +58,30 @@
 				<Item Name="Path" Type="Folder">
 					<Item Name="Path_HDH Dependency Finder Folder.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Path/Path_HDH Dependency Finder Folder.vi"/>
 				</Item>
-				<Item Name="Sub" Type="Folder">
-					<Item Name="Project Parser_Get Files from Project.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Sub/Project Parser_Get Files from Project.vi"/>
-					<Item Name="Project Parser_Identify External Dependencies.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Sub/Project Parser_Identify External Dependencies.vi"/>
-					<Item Name="Project Parser_Identify External Folders and Internal Relative Paths.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Sub/Project Parser_Identify External Folders and Internal Relative Paths.vi"/>
-					<Item Name="Project Parser_Identify Internal Dependencies.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Sub/Project Parser_Identify Internal Dependencies.vi"/>
+				<Item Name="Private" Type="Folder">
+					<Item Name="Find External Path Combinations.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Private/Find External Path Combinations.vi"/>
+					<Item Name="Load 1D String Array from File.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Load 1D String Array from File.vi"/>
+					<Item Name="Load Package Arrays from File.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Load Package Arrays from File.vi"/>
+					<Item Name="Project Parser_Identify External Dependencies.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Private/Project Parser_Identify External Dependencies.vi"/>
+					<Item Name="Project Parser_Identify External Folders and Internal Relative Paths.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Private/Project Parser_Identify External Folders and Internal Relative Paths.vi"/>
+					<Item Name="Project Parser_Identify Internal Dependencies.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Private/Project Parser_Identify Internal Dependencies.vi"/>
+					<Item Name="Remove Ignored Externals.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Private/Remove Ignored Externals.vi"/>
+					<Item Name="Remove Ignored Internals.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Remove Ignored Internals.vi"/>
+					<Item Name="Remove non-unique Strings.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Remove non-unique Strings.vi"/>
 				</Item>
 				<Item Name="Utility" Type="Folder">
-					<Item Name="Find External Path Combinations.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Find External Path Combinations.vi"/>
+					<Item Name="Find All Files in Project.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Find All Files in Project.vi"/>
+					<Item Name="Find Project Dependencies in Given Maps.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Find Project Dependencies in Given Maps.vi"/>
 					<Item Name="Get Data Folder.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Get Data Folder.vi"/>
 					<Item Name="Get External Ignore List.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Get External Ignore List.vi"/>
 					<Item Name="Get Internal Ignore List.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Get Internal Ignore List.vi"/>
-					<Item Name="Load Package Arrays from File.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Load Package Arrays from File.vi"/>
-					<Item Name="Remove Ignored Internals.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Remove Ignored Internals.vi"/>
-					<Item Name="Remove non-unique Strings.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Remove non-unique Strings.vi"/>
 				</Item>
 				<Item Name="Dependency Source.lvclass" Type="LVClass" URL="../../Build/Project.Dependencies Finder.lvlibp/Dependency Source/Dependency Source.lvclass"/>
 				<Item Name="Dependency Source_Custom.lvclass" Type="LVClass" URL="../../Build/Project.Dependencies Finder.lvlibp/Dependency Source_Custom/Dependency Source_Custom.lvclass"/>
 				<Item Name="Dependency Source_GPM.lvclass" Type="LVClass" URL="../../Build/Project.Dependencies Finder.lvlibp/Dependency Source_GPM/Dependency Source_GPM.lvclass"/>
 				<Item Name="Dependency Source_NIPM.lvclass" Type="LVClass" URL="../../Build/Project.Dependencies Finder.lvlibp/Dependency Source_NIPM/Dependency Source_NIPM.lvclass"/>
 				<Item Name="Dependency Source_VIPM.lvclass" Type="LVClass" URL="../../Build/Project.Dependencies Finder.lvlibp/Dependency Source_VIPM/Dependency Source_VIPM.lvclass"/>
-				<Item Name="Project Parser_Class Array.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Project Parser_Class Array.vi"/>
-				<Item Name="Project Parser_Map Array.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Project Parser_Map Array.vi"/>
+				<Item Name="Find Project Dependencies.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Find Project Dependencies.vi"/>
 				<Item Name="Project.Dependencies Finder_1D String Array to Delimited String.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/AdvancedString/Project.Dependencies Finder_1D String Array to Delimited String.vi"/>
 				<Item Name="Project.Dependencies Finder_8.6CompatibleGlobalVar.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/config.llb/Project.Dependencies Finder_8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Project.Dependencies Finder_Application Directory.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Project.Dependencies Finder_Application Directory.vi"/>
@@ -98,7 +103,6 @@
 				<Item Name="Project.Dependencies Finder_NI_LVConfig.lvlib" Type="Library" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/config.llb/Project.Dependencies Finder_NI_LVConfig.lvlib"/>
 				<Item Name="Project.Dependencies Finder_NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/Project.Dependencies Finder_NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Project.Dependencies Finder_Open File+.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Project.Dependencies Finder_Open File+.vi"/>
-				<Item Name="Project.Dependencies Finder_Path_PPL_Get Folder.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/user.lib/_Tools/Tools.Path/PPL/Project.Dependencies Finder_Path_PPL_Get Folder.vi"/>
 				<Item Name="Project.Dependencies Finder_Read Delimited Spreadsheet (string).vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Project.Dependencies Finder_Read Delimited Spreadsheet (string).vi"/>
 				<Item Name="Project.Dependencies Finder_Read File+ (string).vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Project.Dependencies Finder_Read File+ (string).vi"/>
 				<Item Name="Project.Dependencies Finder_Read Lines From File (with error IO).vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Project.Dependencies Finder_Read Lines From File (with error IO).vi"/>
@@ -109,7 +113,6 @@
 				<Item Name="Project.Dependencies Finder_whitespace.ctl" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Project.Dependencies Finder_whitespace.ctl"/>
 				<Item Name="Project.Dependencies Finder_Write Delimited Spreadsheet (string).vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Project.Dependencies Finder_Write Delimited Spreadsheet (string).vi"/>
 				<Item Name="Project.Dependencies Finder_Write Spreadsheet String.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Project.Dependencies Finder_Write Spreadsheet String.vi"/>
-				<Item Name="Remove Ignored Externals.vi" Type="VI" URL="../../Build/Project.Dependencies Finder.lvlibp/Utility/Remove Ignored Externals.vi"/>
 			</Item>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

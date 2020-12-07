@@ -12,28 +12,29 @@
 	<Item Name="Path" Type="Folder">
 		<Item Name="Path_HDH Dependency Finder Folder.vi" Type="VI" URL="../Path/Path_HDH Dependency Finder Folder.vi"/>
 	</Item>
-	<Item Name="Sub" Type="Folder">
-		<Item Name="Project Parser_Get Files from Project.vi" Type="VI" URL="../Sub/Project Parser_Get Files from Project.vi"/>
-		<Item Name="Project Parser_Identify External Dependencies.vi" Type="VI" URL="../Sub/Project Parser_Identify External Dependencies.vi"/>
-		<Item Name="Project Parser_Identify External Folders and Internal Relative Paths.vi" Type="VI" URL="../Sub/Project Parser_Identify External Folders and Internal Relative Paths.vi"/>
-		<Item Name="Project Parser_Identify Internal Dependencies.vi" Type="VI" URL="../Sub/Project Parser_Identify Internal Dependencies.vi"/>
+	<Item Name="Private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Find External Path Combinations.vi" Type="VI" URL="../Private/Find External Path Combinations.vi"/>
+		<Item Name="Load 1D String Array from File.vi" Type="VI" URL="../Utility/Load 1D String Array from File.vi"/>
+		<Item Name="Load Package Arrays from File.vi" Type="VI" URL="../Utility/Load Package Arrays from File.vi"/>
+		<Item Name="Project Parser_Identify External Dependencies.vi" Type="VI" URL="../Private/Project Parser_Identify External Dependencies.vi"/>
+		<Item Name="Project Parser_Identify External Folders and Internal Relative Paths.vi" Type="VI" URL="../Private/Project Parser_Identify External Folders and Internal Relative Paths.vi"/>
+		<Item Name="Project Parser_Identify Internal Dependencies.vi" Type="VI" URL="../Private/Project Parser_Identify Internal Dependencies.vi"/>
+		<Item Name="Remove Ignored Externals.vi" Type="VI" URL="../Private/Remove Ignored Externals.vi"/>
+		<Item Name="Remove Ignored Internals.vi" Type="VI" URL="../Utility/Remove Ignored Internals.vi"/>
+		<Item Name="Remove non-unique Strings.vi" Type="VI" URL="../Utility/Remove non-unique Strings.vi"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
-		<Item Name="Find External Path Combinations.vi" Type="VI" URL="../Utility/Find External Path Combinations.vi"/>
+		<Item Name="Find All Files in Project.vi" Type="VI" URL="../Utility/Find All Files in Project.vi"/>
+		<Item Name="Find Project Dependencies in Given Maps.vi" Type="VI" URL="../Utility/Find Project Dependencies in Given Maps.vi"/>
 		<Item Name="Get Data Folder.vi" Type="VI" URL="../Utility/Get Data Folder.vi"/>
 		<Item Name="Get External Ignore List.vi" Type="VI" URL="../Utility/Get External Ignore List.vi"/>
 		<Item Name="Get Internal Ignore List.vi" Type="VI" URL="../Utility/Get Internal Ignore List.vi"/>
-		<Item Name="Load 1D String Array from File.vi" Type="VI" URL="../Utility/Load 1D String Array from File.vi"/>
-		<Item Name="Load Package Arrays from File.vi" Type="VI" URL="../Utility/Load Package Arrays from File.vi"/>
-		<Item Name="Remove Ignored Internals.vi" Type="VI" URL="../Utility/Remove Ignored Internals.vi"/>
-		<Item Name="Remove non-unique Strings.vi" Type="VI" URL="../Utility/Remove non-unique Strings.vi"/>
 	</Item>
 	<Item Name="Dependency Source.lvclass" Type="LVClass" URL="../Dependency Source/Dependency Source.lvclass"/>
 	<Item Name="Dependency Source_Custom.lvclass" Type="LVClass" URL="../Dependency Source_Custom/Dependency Source_Custom.lvclass"/>
 	<Item Name="Dependency Source_GPM.lvclass" Type="LVClass" URL="../Dependency Source_GPM/Dependency Source_GPM.lvclass"/>
 	<Item Name="Dependency Source_NIPM.lvclass" Type="LVClass" URL="../Dependency Source_NIPM/Dependency Source_NIPM.lvclass"/>
 	<Item Name="Dependency Source_VIPM.lvclass" Type="LVClass" URL="../Dependency Source_VIPM/Dependency Source_VIPM.lvclass"/>
-	<Item Name="Project Parser_Class Array.vi" Type="VI" URL="../Project Parser_Class Array.vi"/>
-	<Item Name="Project Parser_Map Array.vi" Type="VI" URL="../Project Parser_Map Array.vi"/>
-	<Item Name="Remove Ignored Externals.vi" Type="VI" URL="../Utility/Remove Ignored Externals.vi"/>
+	<Item Name="Find Project Dependencies.vi" Type="VI" URL="../Find Project Dependencies.vi"/>
 </Library>

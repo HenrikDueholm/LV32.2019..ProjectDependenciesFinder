@@ -4,14 +4,14 @@ Uses plugins to support different types of dependency sources.
 
 Included plugins:
 VIPM (live from ProgramData\JKI\VIPM\cache)
-GPM (Up to date with current state, but not live just yet)
+GPM (Up to date with current state, but not live)
 NIPM (Limited functionality as target location for packages is not known)
 Custom
 
 # Test
 To test the functionality of this repository:
 Open \_Test\Test.lvproj
-Open VIPM Project Parser.vi
+Open Test_Project Parser.vi
 Modify the dependencies in the 'Dependency example'-structure
 Save and Exit the project (to write the lvproj changes to disc)
 Reopen the project and VI
