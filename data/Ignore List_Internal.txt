@@ -3,3 +3,5 @@ user.lib\_probes
 user.lib\_express
 vi.lib\addons
 resource\dialog
+vi.lib
+user.lib

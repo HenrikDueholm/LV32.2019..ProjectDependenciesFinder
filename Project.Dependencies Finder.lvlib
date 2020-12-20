@@ -35,7 +35,7 @@
 			<Item Name="Reset Target Refresh.vi" Type="VI" URL="../Utility/Target Refresh/Reset Target Refresh.vi"/>
 			<Item Name="Target Refresh Tracker.vi" Type="VI" URL="../Utility/Target Refresh/Target Refresh Tracker.vi"/>
 		</Item>
-		<Item Name="Find All Files in Project.vi" Type="VI" URL="../Utility/Find All Files in Project.vi"/>
+		<Item Name="Find All Folders in Project.vi" Type="VI" URL="../Utility/Find All Folders in Project.vi"/>
 		<Item Name="Find Project Dependencies in Given Maps.vi" Type="VI" URL="../Utility/Find Project Dependencies in Given Maps.vi"/>
 		<Item Name="Get Data Folder.vi" Type="VI" URL="../Utility/Get Data Folder.vi"/>
 		<Item Name="Get External Ignore List.vi" Type="VI" URL="../Utility/Get External Ignore List.vi"/>
