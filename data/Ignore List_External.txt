@@ -4,3 +4,11 @@ sub
 ctl
 source
 build
+Toolkit
+VIs
+LabVIEW Data
+Library VIs
+National Instruments
+Test Code
+exports
+steps
