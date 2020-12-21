@@ -67,18 +67,6 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1107820544</Property>
 		</Item>
 	</Item>
-	<Item Name="Path" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Path_HDH Dependency Finder Target Folder.vi" Type="VI" URL="../Path/Path_HDH Dependency Finder Target Folder.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#%!!!!"!!%!!!!$E!B#&amp;.V9W.F=X-`!!!71$,`````$5B%3&amp;R736".)("B&gt;'A!6!$Q!!Q!!!!!!!%!!A!!!!!!!!!!!!!!!!!!!!!$!!"Y!!!!!!!!!!!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!$!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074266642</Property>
-		</Item>
-	</Item>
 	<Item Name="Progress Tracker" Type="Folder">
 		<Item Name="Progress_Increment.vi" Type="VI" URL="../Progress Tracker/Progress_Increment.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Y!!!!#!!-1#%'17*P=H1`!!"=1(!!(A!!03&amp;1=G^K:7.U,E2F='6O:'6O9WFF=S"';7ZE:8)O&lt;(:M;7):2'6Q:7ZE:7ZD?3"4&lt;X6S9W5O&lt;(:D&lt;'&amp;T=Q!62'6Q:7ZE:7ZD?3"4&lt;X6S9W5A&lt;X6U!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!"R!5!!$!!)!!Q!%$W6S=G^S)'FO)#BT?7ZD+1"=1(!!(A!!03&amp;1=G^K:7.U,E2F='6O:'6O9WFF=S"';7ZE:8)O&lt;(:M;7):2'6Q:7ZE:7ZD?3"4&lt;X6S9W5O&lt;(:D&lt;'&amp;T=Q!52'6Q:7ZE:7ZD?3"4&lt;X6S9W5A;7Y!!#E!]!!%!!!!!1!&amp;!!9#!!!I!!!*!!!!$1-!!!A!!!!1!!!&amp;!!1!!!!!!1!(!!!!!!</Property>

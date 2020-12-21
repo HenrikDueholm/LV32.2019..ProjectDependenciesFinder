@@ -10,9 +10,14 @@
 		<Item Name="Ctl_External Target Element.ctl" Type="VI" URL="../Ctl/Ctl_External Target Element.ctl"/>
 		<Item Name="Ctl_Internal Target Element.ctl" Type="VI" URL="../Ctl/Ctl_Internal Target Element.ctl"/>
 		<Item Name="Ctl_Progress Queue.ctl" Type="VI" URL="../Ctl/Ctl_Progress Queue.ctl"/>
+		<Item Name="Ctl_Target Status Cluster.ctl" Type="VI" URL="../Ctl/Ctl_Target Status Cluster.ctl"/>
 	</Item>
 	<Item Name="Path" Type="Folder">
 		<Item Name="Path_HDH Dependency Finder Folder.vi" Type="VI" URL="../Path/Path_HDH Dependency Finder Folder.vi"/>
+		<Item Name="Path_Data Folder.vi" Type="VI" URL="../Path/Path_Data Folder.vi"/>
+		<Item Name="Path_HDH Dependency Finder Target Folder.vi" Type="VI" URL="../Path/Path_HDH Dependency Finder Target Folder.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -37,7 +42,6 @@
 		</Item>
 		<Item Name="Find All Folders in Project.vi" Type="VI" URL="../Utility/Find All Folders in Project.vi"/>
 		<Item Name="Find Project Dependencies in Given Maps.vi" Type="VI" URL="../Utility/Find Project Dependencies in Given Maps.vi"/>
-		<Item Name="Get Data Folder.vi" Type="VI" URL="../Utility/Get Data Folder.vi"/>
 		<Item Name="Get External Ignore List.vi" Type="VI" URL="../Utility/Get External Ignore List.vi"/>
 		<Item Name="Get Internal Ignore List.vi" Type="VI" URL="../Utility/Get Internal Ignore List.vi"/>
 	</Item>
@@ -48,4 +52,6 @@
 	<Item Name="Dependency Source_VIPM.lvclass" Type="LVClass" URL="../Dependency Source_VIPM/Dependency Source_VIPM.lvclass"/>
 	<Item Name="Find Project Dependencies.vi" Type="VI" URL="../Find Project Dependencies.vi"/>
 	<Item Name="Refresh Targets.vi" Type="VI" URL="../Refresh Targets.vi"/>
+	<Item Name="Acquire Status of Dependency Targets.vi" Type="VI" URL="../Acquire Status of Dependency Targets.vi"/>
+	<Item Name="Clean-up Local Files.vi" Type="VI" URL="../Clean-up Local Files.vi"/>
 </Library>

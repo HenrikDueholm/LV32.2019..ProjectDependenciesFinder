@@ -5,3 +5,5 @@ vi.lib\addons
 resource\dialog
 vi.lib
 user.lib
+vi.lib\appbuilder
+resource\Framework\Providers
