@@ -52,6 +52,6 @@
 	<Item Name="Dependency Source_VIPM.lvclass" Type="LVClass" URL="../Dependency Source_VIPM/Dependency Source_VIPM.lvclass"/>
 	<Item Name="Find Project Dependencies.vi" Type="VI" URL="../Find Project Dependencies.vi"/>
 	<Item Name="Refresh Targets.vi" Type="VI" URL="../Refresh Targets.vi"/>
-	<Item Name="Acquire Status of Dependency Targets.vi" Type="VI" URL="../Acquire Status of Dependency Targets.vi"/>
 	<Item Name="Clean-up Local Files.vi" Type="VI" URL="../Clean-up Local Files.vi"/>
+	<Item Name="Acquire Status of Dependency Targets.vi" Type="VI" URL="../Acquire Status of Dependency Targets.vi"/>
 </Library>
