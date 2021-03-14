@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -75,7 +75,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2FE5A042-0FB2-4AE3-BC1F-41CE74E1B412}</Property>
-				<Property Name="Bld_version.build" Type="Int">37</Property>
+				<Property Name="Bld_version.build" Type="Int">38</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Project.Dependencies Finder.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/NI_AB_PROJECTNAME.lvlibp</Property>
@@ -88,7 +88,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FE157BBF-5742-4EA2-BA29-812194F32CBD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D5FDC601-2742-4CF9-9F49-3CE3252E1446}</Property>
 				<Property Name="Source[0].newName" Type="Str">Project.Dependencies Finder_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -106,11 +106,10 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">Danfoss</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Project.Dependencies Finder</Property>
 				<Property Name="TgtF_internalName" Type="Str">Project.Dependencies Finder</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Danfoss</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 HenrikDueholm</Property>
 				<Property Name="TgtF_productName" Type="Str">Project.Dependencies Finder</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D5C7504C-A3D8-47AF-B3C5-6E482732D451}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Project.Dependencies Finder.lvlibp</Property>
